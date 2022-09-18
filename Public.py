@@ -71,7 +71,7 @@ def main_apv():
         key1 = open('/sdcard/.android.txt', 'r').read()
     except IOError:
         os.system('clear')
-        print logo
+        print (logo)
         print '           You dont have subscrption'
         print '           Hello Dear Ya Cammonds Paid Han Or'
         print '           Ap Ke Subscription Nhi Ha Please Ap'
@@ -99,7 +99,7 @@ def main_apv():
         main_system()
     else:
         os.system('clear')
-        print logo
+        print (logo)
         print '           You dont have subscrption'
         print '           Hello Dear Ya Cammonds Paid Han Or'
         print '           Ap Ke Subscription Nhi Ha Please Ap'
@@ -133,7 +133,7 @@ def main_system():
         m = q['name']
         print ''
     except requests.exceptions.ConnectionError:
-        print logo
+        print (logo)
         print ''
         print 'Trun On Data An Then \t'
         print ''
@@ -142,7 +142,7 @@ def main_system():
         os.system('rm -rf token.txt')
 
     os.system('clear')
-    print logo
+    print (logo)
     print ''
     print 39 * '~'
     print '\x1b[1;93m[1]   Public Cloning      \x1b[1;92m(Login)'
